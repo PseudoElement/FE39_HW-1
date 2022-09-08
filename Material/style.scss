@@ -636,11 +636,15 @@ header{display: flex;
                 &.block2{padding: 44px 98px 41px 59px;
                     height: 358px;
                     margin: 0 -60px 0 -60px;
-                    position: relative;
+                    position: relative; 
                     background: white;
                     z-index: 1;
 
-                    border: 1px solid black;
+                    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), 
+                    linear-gradient(to right, red, purple);
+                    background-origin: padding-box, border-box;
+                    background-repeat: no-repeat; /* this is important */
+                    border: 5px solid transparent;
                     border-radius: 15px;
                     .row2{
                         font-family: 'Poppins';
