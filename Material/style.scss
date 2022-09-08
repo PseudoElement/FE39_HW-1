@@ -639,12 +639,13 @@ header{display: flex;
                     position: relative; 
                     background: white;
                     z-index: 1;
-
+/*ВОТ ЭТОТ ГРАДИЕНТ с НЕПРОРИСОВАННЫМИ УГЛАМИ*/
                     background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), 
-                    linear-gradient(to right, red, purple);
+                    linear-gradient(#FD749B
+                    100%  #281AC8 100%);
                     background-origin: padding-box, border-box;
                     background-repeat: no-repeat; /* this is important */
-                    border: 5px solid transparent;
+                    border: 2px solid transparent;
                     border-radius: 15px;
                     .row2{
                         font-family: 'Poppins';

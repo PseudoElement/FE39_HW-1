@@ -664,15 +664,16 @@ header .button a button {
   padding: 44px 98px 41px 59px;
   height: 358px;
   margin: 0 -60px 0 -60px;
-  position: relative; 
+  position: relative;
   background: white;
   z-index: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(255, 255, 255))), -webkit-gradient(linear, left top, right top, from(red), to(purple));
-  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(to right, red, purple);
+  /*ВОТ ЭТОТ ГРАДИЕНТ с НЕПРОРИСОВАННЫМИ УГЛАМИ*/
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(255, 255, 255))), -webkit-gradient(linear, left top, left bottom, to(#FD749B));
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(#FD749B 100% #281AC8 100%);
   background-origin: padding-box, border-box;
   background-repeat: no-repeat;
   /* this is important */
-  border: 5px solid transparent;
+  border: 2px solid transparent;
   border-radius: 15px;
 }
 .page4 .blocks .block.block2 .row2 {
