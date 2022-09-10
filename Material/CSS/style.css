@@ -705,3 +705,148 @@ header .button a button {
   border-radius: 100px;
   color: aliceblue;
 }
+
+.page5 {
+  width: 1500px;
+  height: 750px;
+  position: relative;
+  top: -700px;
+  background: url(/Material/image/PhoneLast.svg);
+  z-index: -1;
+}
+.page5 .page5__wrapper {
+  width: 1500px;
+  height: 750px;
+  position: relative;
+  z-index: 6;
+  top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page5 .page5__wrapper h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 65px;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.page5 .page5__wrapper .line {
+  width: 50px;
+  height: 6px;
+  display: block;
+  margin: 10px 0 40px 0px;
+  border-radius: 100px;
+  background: url(/Material/image/Indicator.png);
+  background-size: 100% 100%;
+}
+.page5 .page5__wrapper p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  width: 378.42px;
+}
+.page5 .page5__wrapper .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.page5 .page5__wrapper .links img.playMarket {
+  margin-left: 15px;
+}
+.page5 .page5__wrapper .iPhones {
+  margin-top: 60px;
+}
+
+footer {
+  height: 351px;
+  width: 1500px;
+  background: black;
+  position: relative;
+  top: -350px;
+}
+footer .footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 69px 51px 47px 80px;
+  height: 351px;
+}
+footer .footer__wrapper .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: red solid 2px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer__wrapper .column h1 {
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+footer .footer__wrapper .column a {
+  color: #A2A2A2;
+  font-size: 14px;
+  line-height: 30px;
+  font-style: "Poppins";
+}
+footer .footer__wrapper .column a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+footer .footer__wrapper .column a img:hover {
+  -webkit-box-shadow: 0 0 10px 3px goldenrod;
+          box-shadow: 0 0 10px 3px goldenrod;
+}
+footer .footer__wrapper .column .logo {
+  max-width: 112px;
+  max-height: 23px;
+}
+footer .footer__wrapper .column p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #A2A2A2;
+  width: 369px;
+}
+footer .footer__wrapper .column .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
