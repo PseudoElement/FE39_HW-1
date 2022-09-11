@@ -80,40 +80,30 @@ header {
         .menuText {
             display: flex;
             align-items: center;
-
             justify-content: space-between;
             width: 426px;
             height: 26px;
-
-
         }
-
-        //UDERLIGN <HR> how to use?
         .line {
             margin: 5px 0 0 37px;
             height: 3px;
             width: 22px;
             background: url(/Material/image/Indicator.png);
         }
-
-
     }
 
     .SellBitcoin {
-        //border: 1px solid black;
         display: flex;
         flex-direction: column;
         line-height: 21px;
         margin: 0px 0px 0 0;
         align-items: center;
-        //justify-content: center;
         height: 25px;
         width: 170px;
         transition: all 0.3s;
         border-radius: 25px;
         &:hover{
             color: white;
-
             border-radius: 25px;
             background: -webkit-linear-gradient(top, rgba(239, 197, 202, 1) 0%, rgba(210, 75, 90, 1) 100%, rgba(241, 142, 153, 1) 100%);
             .list{
@@ -159,16 +149,6 @@ header {
 
                     }
                 }
-
-        &:hover {
-            
-
-        }
-
-
-
-
-
     }
 
     .button {
@@ -537,12 +517,9 @@ header {
                         height: 367px;
                         display: flex;
                         flex-direction: column;
-
-                        //justify-content: space-between;
                         & li:nth-child(1) {
                             text-align: center;
                             border-right: none;
-                            line-height: 65px;
                             line-height: 65px;
                             margin-top: 23px;
                             font-size: 28px;
@@ -552,14 +529,12 @@ header {
                             -webkit-text-fill-color: transparent;
                         }
 
-                        & li:nth-child(2) {
+                        & li:nth-child(2) {z-index: 10;
                             margin-bottom: 10px;
                             margin-top: 20px;
                             align-self: center;
-
                             button {
                                 color: white;
-                                display: block;
                                 width: 85.67px;
                                 height: 24.2px;
                                 //line-height: 25px;
@@ -753,6 +728,7 @@ header {
 
                     .row3 {
                         color: black;
+                        font-size:12px ;
                     }
 
                     & button {
