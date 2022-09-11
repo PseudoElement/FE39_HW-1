@@ -357,7 +357,7 @@ header {
         height: 1055.57px;
         position: relative;
         z-index: 0;
-        top: -670px;
+        top: -610px;
 
         //border:2px solid black;
         .container {
@@ -368,7 +368,7 @@ header {
             width: 1158px;
             height: 367px;
             position: relative;
-            top: 450px;
+            top: 500px;
             left: 171px;
             border-radius: 30px;
             background-color: white;
@@ -835,9 +835,9 @@ header {
     width: 1500px;
     height: 750px;
     position: relative;
-    top: -700px;
+    top: -650px;
     background: url(/Material/image/PhoneLast.svg);
-    z-index: -1;
+    z-index: 6;
 
     .page5__wrapper {
         width: 1500px;

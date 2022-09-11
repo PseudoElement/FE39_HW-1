@@ -398,7 +398,7 @@ header .button a button {
   height: 1055.57px;
   position: relative;
   z-index: 0;
-  top: -670px;
+  top: -610px;
 }
 .page3 section .container {
   display: -webkit-box;
@@ -411,7 +411,7 @@ header .button a button {
   width: 1158px;
   height: 367px;
   position: relative;
-  top: 450px;
+  top: 500px;
   left: 171px;
   border-radius: 30px;
   background-color: white;
@@ -662,6 +662,7 @@ header .button a button {
   background: rgb(255, 255, 255);
   border: 1px solid crimson;
   border-radius: 15px;
+  /*ЭТА КНОПКА НЕ РАБОТАЕТ*/
 }
 .page4 .blocks .block.block1:hover .row2, .page4 .blocks .block.block3:hover .row2 {
   font-family: "Poppins";
@@ -758,9 +759,9 @@ header .button a button {
   width: 1500px;
   height: 750px;
   position: relative;
-  top: -700px;
+  top: -650px;
   background: url(/Material/image/PhoneLast.svg);
-  z-index: -1;
+  z-index: 6;
 }
 .page5 .page5__wrapper {
   width: 1500px;
@@ -777,6 +778,7 @@ header .button a button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /*ЭТИ КНОПКИ ТОЖЕ НЕ РАБОТАЮТ*/
 }
 .page5 .page5__wrapper h1 {
   font-family: "Poppins";
